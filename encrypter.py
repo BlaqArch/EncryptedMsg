@@ -1,5 +1,5 @@
 from os import path
-
+import time
 alphabets = 'abcdefghijklmnopqrstuvwxyz'
 key = 5
 def enter_Message():
@@ -33,6 +33,8 @@ def decrypt_Message():
     enter_Pwd = input('Password: ')
     if enter_Pwd == decrypt_Password:
         print(decrypt_msg)
+        time.sleep(9999)
+        
 
 
 def take_Password():
